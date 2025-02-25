@@ -645,6 +645,16 @@ progress {
   margin-left: auto;
 }
 
+.container-wide {
+   --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
